@@ -21,7 +21,7 @@ public class stringdistance {
         String[] words = sentence.split("//s");
         int distance = Integer.MAX_VALUE;
         int prevIndex = -1;
-        //  int sum  = 0;
+    
         for (int i = 0; i < words.length; i++) {
             if (words[i].equalsIgnoreCase(word)) {
                 if (prevIndex != -1) {
@@ -29,7 +29,6 @@ public class stringdistance {
                     int sum = currDistance;
                     if (sum == distance) {
                         distance = sum;
-                        // sum += distance;
                     }
                 }
                 prevIndex = i;
