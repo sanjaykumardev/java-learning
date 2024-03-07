@@ -18,7 +18,7 @@ public class cricket {
       int N = sc.nextInt();
         
       int M = sc.nextInt();
-          
+      sc.close();
       int numMatches = N - 1;
           
       if(numMatches >= M){
