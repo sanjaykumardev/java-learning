@@ -12,8 +12,6 @@ public class stringdistance {
        
         System.out.print(distance);
         System.out.print(distance2);
-      
-     
         sc.close();
     }
 
