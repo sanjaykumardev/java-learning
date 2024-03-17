@@ -1,15 +1,14 @@
-package overload;
-
 import java.util.*;
 
 class sort {
   public static void main(String args[])
   {
-    scanner sc = new scanner(Systen.in)
-    int n =sc.nextInr[n];
+    Scanner sc = new Scanner(System.in);
+    int n =sc.nextInt();
     int temp =0;
-    for ((int i =0; i<n;i++)){
-      arr[i]= sc.next int
+    int[] arr = new int[n];
+    for (int i =0; i<n;i++){
+      arr[i]= sc.nextInt();
     }
     
     for (int i =0;i<n;i++){
@@ -22,6 +21,7 @@ class sort {
         }
       }
     }
+    sc.close();
   }
 
 }
