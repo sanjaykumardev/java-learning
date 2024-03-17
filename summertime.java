@@ -5,6 +5,7 @@ import java.util.*;
 public class summertime {
 
   public static void main(String[] args) throws java.lang.Exception {
+    @SuppressWarnings("resource")
     Scanner sc = new Scanner(System.in);
 
     int i = sc.nextInt();

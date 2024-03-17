@@ -6,6 +6,7 @@ public class binary {
 
     int number ,i=0;;
     int binary[] = new int[100];
+    @SuppressWarnings("resource")
     Scanner sc = new Scanner(System.in);
     System.out.println("enter number");
     number = sc.nextInt();
