@@ -20,8 +20,8 @@ public class mergesort {
 
   while (j < arr2.length) {
       merge[k++] = arr2[j++];
-  }
-
+  } 
+  Arrays.sort(merge);
   return merge;
 
       }
