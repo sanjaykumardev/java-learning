@@ -1,7 +1,5 @@
-package pro;
-
-public abstract class car {
-  public abstract String TurnOn();
-  public abstract String TurnOff();
-  public abstract String  GetofType();
+public abstract class Car {
+  abstract void turnoncar();
+  abstract void turnoffcar();
+  abstract String getcartype();
 }

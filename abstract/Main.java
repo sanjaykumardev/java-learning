@@ -1,10 +1,14 @@
-package pro;
+public class Main {
+  public static void main(String[] args)
+  {
+    Manualcar mcar=new Manualcar();
+    mcar.turnoncar();
+    mcar.turnoffcar();
+    System.out.println(mcar.getcartype());
 
-public class main {
-  public static void main(String[] args) {
-    abstract m = new manual();
-    m.TurnOn();
-    m.TurnOff();
-    m.GetofType();
-  }
+    Automaticcar acar=new Automaticcar();
+    acar.turnoncar();
+    acar.turnoffcar();
+    System.out.println(acar.getcartype());
+  } 
 }

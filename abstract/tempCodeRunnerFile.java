@@ -1,0 +1,3 @@
+TurnOn();
+TurnOff();
+GetofType();
