@@ -1,14 +1,14 @@
 public class Main {
   public static void main(String[] args)
   {
-    Manualcar mcar=new Manualcar();
-    mcar.turnoncar();
-    mcar.turnoffcar();
-    System.out.println(mcar.getcartype());
+    Manualcar m=new Manualcar();
+    m.turnoncar();
+    m.turnoffcar();
+    System.out.println(m.getcartype());
 
-    Automaticcar acar=new Automaticcar();
-    acar.turnoncar();
-    acar.turnoffcar();
-    System.out.println(acar.getcartype());
+    Automaticcar a =new Automaticcar();
+    a.turnoncar();
+    a.turnoffcar();
+    System.out.println(a.getcartype());
   } 
 }
