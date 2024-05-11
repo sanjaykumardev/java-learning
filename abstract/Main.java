@@ -6,7 +6,7 @@ public class Main {
     m.turnoffcar();
     System.out.println(m.getcartype());
 
-    Automaticcar a =new Automaticcar();
+    Automaticcar a = new Automaticcar();
     a.turnoncar();
     a.turnoffcar();
     System.out.println(a.getcartype());
